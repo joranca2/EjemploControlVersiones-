@@ -30,3 +30,15 @@ area_circulo <- pi * radio^2
 
 # Mostramos el resultado
 area_circulo
+
+```{r}
+# Lado del cuadrado
+L <- 4
+
+# Calculamos el área del cuadrado
+area_cuadrado <- L^2
+
+# Mostramos el resultado
+area_cuadrado
+
+
