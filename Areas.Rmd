@@ -40,5 +40,11 @@ area_cuadrado <- L^2
 
 # Mostramos el resultado
 area_cuadrado
+```{r}
+#Area triangulo(este es mi cambio desde github)(deberia haber sido el cuadrado segun la presentacion)
+base <- 4
+altura <- 3
 
+# Calculamos el área del triángulo
+area_triangulo <- (base * altura) / 2
 
