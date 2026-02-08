@@ -1,0 +1,32 @@
+---
+title: "Areas"
+author: "Jorge Andrés Catalá"
+date: "2026-02-08"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Cálculo de áreas
+
+En este documento se muestran ejemplos sencillos de cálculo de áreas usando R.
+
+### Área de un círculo
+
+El área de un círculo se calcula como:
+
+\[
+A = \pi \cdot r^2
+\]
+
+```{r area-circulo}
+# Definimos el radio
+radio <- 5
+
+# Calculamos el área del círculo
+area_circulo <- pi * radio^2
+
+# Mostramos el resultado
+area_circulo
